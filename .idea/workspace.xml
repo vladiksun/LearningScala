@@ -24,24 +24,341 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="669672a7-d03e-47a8-a73c-be7930a8a06b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/OptionTypeExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/PatternGuardsExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/PatternsEverywhereExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/TuplePatternsExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/TypedPatternsExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/UseSealedClasses.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/VariableBindingExample.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/big_example/ExprFormatter.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/big_example/Express.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/miscellaneous/Casting.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/model/Expr.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/model/Expr.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/Arrays.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/Arrays.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/Lists.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/Lists.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/MapTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/MapTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/PrintFile.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/PrintFile.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/SetTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/SetTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/Tuples.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter_3_next_steps/Tuples.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/chapter_7_built_in_control_structures/ForLoopYield.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/chapter_7_built_in_control_structures/ForLoopYield.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Equality$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Equality$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Equality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ForEach$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ForEach$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/ForEach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Loop$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Loop$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Loop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Operators_infix$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Operators_infix$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Operators_infix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Operators_postfix$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Operators_postfix$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Operators_postfix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Operators_prefix$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Operators_prefix$CustomOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Operators_prefix$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Operators_prefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Strings$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Strings$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bobsrockets/launch/Vehicle$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bobsrockets/launch/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bobsrockets/navigation/Navigator$LegOfJourney.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/bobsrockets/navigation/Navigator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/ArrayElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/Element$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/Element$LineElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/Spiral$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/Spiral$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/Spiral.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/TestElement$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/TestElement$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/TestElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/UniformElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/test/ArrayElement1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/test/ArrayElement2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/test/ArrayElement3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/test/ArrayElement4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/test/ArrayElement5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/test/ArrayElement6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_10_composition_and_inheritance/test/TestElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/CustomValueClass$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/CustomValueClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/Dollars$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/Dollars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/NothingExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/NothingExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/NothingExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/SwissFrancs$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/SwissFrancs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/TestCustomValues$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/TestCustomValues$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/TestCustomValues.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/htmlTypes/Anchor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/htmlTypes/Anchor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/htmlTypes/Html$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/htmlTypes/Html.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/htmlTypes/Style$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/htmlTypes/Style.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/htmlTypes/TestHtml$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/htmlTypes/TestHtml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/htmlTypes/Text$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_11_scala_hierarchy/htmlTypes/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/example_rectangular_object/Component.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/example_rectangular_object/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/example_rectangular_object/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/example_rectangular_object/Rectangular.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/example_rectangular_object/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/example_rectangular_object/Test$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/example_rectangular_object/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/how_trait_works/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/how_trait_works/Frog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/how_trait_works/HasLegs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/how_trait_works/Philosophical.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/linearization/Linearization$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/linearization/Linearization$Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/linearization/Linearization$Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/linearization/Linearization$FourLegged.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/linearization/Linearization$Furry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/linearization/Linearization$HasLegs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/linearization/Linearization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/ordered_trait/RationalNotOrdered.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/ordered_trait/RationalOrdered.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/ordered_trait/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/ordered_trait/Test$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/ordered_trait/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/BasicIntQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/Doubling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/Filtering.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/Incrementing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/IntQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/MyQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/Test$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/Test$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/Test$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/Test$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/Test$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/stackable_modifications/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_12_traits/thin_vs_rich/CharSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/companion_objects/Rocket$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/companion_objects/Rocket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/package_object/PrintMenu$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/package_object/PrintMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/package_object/package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/package_object/package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/private_members/Outer$Inner$InnerMost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/private_members/Outer$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/private_members/Outer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/protected_members/package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/protected_members/package$Other.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/protected_members/package$Sub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/protected_members/package$Super.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/access_modifiers/protected_members/package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/flexible_imports/AStarB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/flexible_imports/ImportSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/imports/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/packages/Navigator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/test_imports/Fruits$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/test_imports/Fruits$Apple$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/test_imports/Fruits$Orange$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/test_imports/Fruits$Pear$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_13_packages_and_imports/test_imports/Fruits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_14_tests/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/CaseClassesExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/CaseClassesExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/CaseClassesExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/ConstantPatternsExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/ConstantPatternsExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/ConstantPatternsExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/ConstructorPatternsExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/ConstructorPatternsExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/MatchExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/MatchExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/MatchExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/OptionTypeExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/OptionTypeExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/OptionTypeExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/PatternGuardsExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/PatternGuardsExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/PatternGuardsExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/PatternsEverywhereExample$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/PatternsEverywhereExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/PatternsEverywhereExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/PatternsEverywhereExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/SequencePatternsExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/SequencePatternsExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/TuplePatternsExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/TuplePatternsExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/TuplePatternsExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/TypedPatternsExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/TypedPatternsExample$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/TypedPatternsExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/UseSealedClasses$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/UseSealedClasses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/VariableBindingExample$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/VariableBindingExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/VariablePatternsExamples$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/VariablePatternsExamples$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/VariablePatternsExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/big_example/ExprFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/big_example/Express$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/big_example/Express$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/big_example/Express.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/model/BinOp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/model/BinOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/model/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/model/Number$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/model/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/model/UnOp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/model/UnOp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/model/Var$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_15_case_classes_pattern_matching/model/Var.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_2_first_steps/FirstScalaClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_2_first_steps/FirstScript$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_2_first_steps/FirstScript$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_2_first_steps/FirstScript.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_30_scala_equality/ReferenceEquality$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_30_scala_equality/ReferenceEquality$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_30_scala_equality/ReferenceEquality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_30_scala_equality/UserDefinedEquality$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_30_scala_equality/UserDefinedEquality$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_30_scala_equality/UserDefinedEquality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/Arrays$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/Arrays$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/Lists$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/Lists$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/Lists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/MapTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/MapTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/MapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/PrintFile$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/PrintFile$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/PrintFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/SetTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/SetTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/SetTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/Tuples$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/Tuples$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_3_next_steps/Tuples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_4_classes_objects/ChecksumAccumulator$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_4_classes_objects/ChecksumAccumulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_4_classes_objects/FallWinterSpringSummer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_4_classes_objects/FallWinterSpringSummer$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_4_classes_objects/FallWinterSpringSummer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_4_classes_objects/Summer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_4_classes_objects/Summer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_6_func_objects/Rational.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_6_func_objects/TestRational$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_6_func_objects/TestRational$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_6_func_objects/TestRational.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ExceptionHandling$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ExceptionHandling$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ExceptionHandling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ForLoop$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ForLoop$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ForLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ForLoopNested$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ForLoopNested$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ForLoopNested.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ForLoopYield$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ForLoopYield$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/ForLoopYield.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/IfTest$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/IfTest$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/IfTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/MatchExpressions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/MatchExpressions$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/MatchExpressions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/Multitable$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/Multitable$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/Multitable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/Scope$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_7_built_in_control_structures/Scope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/Closures$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/Closures$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/Closures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/DefaultParameters$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/DefaultParameters$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/DefaultParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/FirstClassFunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/FirstClassFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/LocalFunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/LocalFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/NamedArguments$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/NamedArguments$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/NamedArguments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/PartiallyAppliedFunctions$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/PartiallyAppliedFunctions$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/PartiallyAppliedFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/RepeatedParameters$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/RepeatedParameters$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/RepeatedParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/TailRecursion$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_8_functions_and_closures/TailRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/ByNameParameters$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/ByNameParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/CreateControlStructures$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/CreateControlStructures$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/CreateControlStructures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/Currying$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/Currying$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/Currying.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/FileMatcher$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/FileMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/SimplifiedClientCode$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/chapter_9_control_abstraction/SimplifiedClientCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/miscellaneous/Casting$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/miscellaneous/Casting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/some_package/Navigator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/some_package/tests/NavigatorSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningscala$sources/0.1/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningscala$sources/0.1/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningscala_2.12/0.1/resolved.xml.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/learningscala_2.12/0.1/resolved.xml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala$sources-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala$sources-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala$sources-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala$sources-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala$sources-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala$sources-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala$sources-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala$sources-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala$sources-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala$sources-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala$sources-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala_2.12-compile-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala_2.12-compile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala_2.12-optional.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala_2.12-plugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala_2.12-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala_2.12-provided.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala_2.12-runtime-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala_2.12-runtime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala_2.12-scala-tool.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala_2.12-test-internal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-learningscala_2.12-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/ivy-report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_14_tests/scala_check/ElementSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_14_tests/scala_test/ElementSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_14_tests/scala_test/RunTestManually$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_14_tests/scala_test/RunTestManually$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_14_tests/scala_test/RunTestManually.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_14_tests/scala_test/TVSetSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_14_tests/spec2/HelloWorldSpec$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_14_tests/spec2/HelloWorldSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/chapter_14_tests/test_as_specification/ElementSpec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -159,20 +476,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/big_example/Express.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="220">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/big_example/ExprFormatter.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            <state relative-caret-position="260">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="e#62#109#0" expanded="true" />
               </folding>
@@ -288,63 +605,6 @@
               <item name="LearningScala" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearningScala" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LearningScala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningScala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningScala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningScala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningScala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningScala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningScala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningScala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_7_built_in_control_structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningScala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningScala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_10_composition_and_inheritance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningScala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningScala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_15_case_classes_pattern_matching" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningScala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningScala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_15_case_classes_pattern_matching" type="462c0819:PsiDirectoryNode" />
-              <item name="big_example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LearningScala" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LearningScala" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -356,7 +616,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543235415880" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543235546309" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -763,7 +1023,7 @@
       <workItem from="1542613859302" duration="211000" />
       <workItem from="1542970448885" duration="6414000" />
       <workItem from="1542985311171" duration="25000" />
-      <workItem from="1543223514243" duration="8663000" />
+      <workItem from="1543223514243" duration="8914000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1541847642086</created>
@@ -850,13 +1110,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61306000" />
+    <option name="totallyTimeSpent" value="61557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18390192" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -865,7 +1124,7 @@
       <window_info id="Structure" order="6" weight="0.17857143" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34666666" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1223,20 +1482,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/big_example/ExprFormatter.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/big_example/Express.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-          <folding>
-            <element signature="e#62#109#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/big_example/Express.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/chapter_15_case_classes_pattern_matching/big_example/ExprFormatter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="260">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#62#109#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
