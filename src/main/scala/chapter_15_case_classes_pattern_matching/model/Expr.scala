@@ -1,6 +1,6 @@
 package chapter_15_case_classes_pattern_matching.model
 
-abstract class Expr
+sealed abstract class Expr
 
 case class Var(name: String) extends Expr
 case class Number(num: Double) extends Expr

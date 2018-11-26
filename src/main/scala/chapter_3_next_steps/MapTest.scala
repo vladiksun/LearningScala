@@ -1,3 +1,5 @@
+package chapter_3_next_steps
+
 object MapTest extends App {
 
     // immutable is the default map.

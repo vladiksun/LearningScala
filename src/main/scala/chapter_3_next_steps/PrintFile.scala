@@ -1,3 +1,5 @@
+package chapter_3_next_steps
+
 import scala.io.Source
 
 object PrintFile extends App {

@@ -1,3 +1,5 @@
+package chapter_3_next_steps
+
 object Arrays extends App {
 
     val big = new java.math.BigInteger("12345")

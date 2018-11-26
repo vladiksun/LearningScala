@@ -1,3 +1,5 @@
+package chapter_3_next_steps
+
 object Tuples extends App {
 
 
