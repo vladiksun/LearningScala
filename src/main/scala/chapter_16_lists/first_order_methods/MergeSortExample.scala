@@ -34,4 +34,19 @@ object MergeSortExample extends App {
 
 	val reverseIntSort = msort((x: Int, y: Int) => x > y)_
 	reverseIntSort(List(5, 7, 1, 3)).foreach(print)
+
+	// show type explicitly
+	val msortTyped = msort[Int](_ > _)_
+
+
+	// change currying order
+	def msortSwapped[T](xs: List[T])(less: (T, T) => Boolean): List[T] = {
+		msort(less)(xs)
+	}
+
+//  Now type inferencer does not want to see explicit type declaration
+//	What has happened is that the inferencer used the known type of the first parameter List(5, 7, 1, 3) to determine
+//	the type parameter of msortSwapped.
+	msortSwapped(List(5, 7, 1, 3))(_ > _)
+
 }

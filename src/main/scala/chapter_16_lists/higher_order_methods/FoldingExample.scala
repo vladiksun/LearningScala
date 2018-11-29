@@ -28,7 +28,6 @@ object FoldingExample extends App {
 	// fold right
 	println(    (words.tail :\ words.head) (_ + " " + _)    )
 
-
 	def flattenLeft[T](xss: List[List[T]]) =
 		(List[T]() /: xss) (_ ::: _)
 
