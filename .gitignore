@@ -1,0 +1,11 @@
+
+*.iml
+*.class
+*.cache
+*.xml
+*.xsl
+*.properties
+*.css
+project/*
+target/*
+.idea/*
