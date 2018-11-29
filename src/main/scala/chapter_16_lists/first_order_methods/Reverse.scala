@@ -11,6 +11,6 @@ object Reverse {
 
 	def verySlowCustomReverse[T](xs: List[T]): List[T] = xs match {
 		case List() => xs
-		case x :: xs1 => verySlowCustomReverse(xs1) ::: List(x)
+		case x :: restOfList => verySlowCustomReverse(restOfList) ::: List(x)
 	}
 }
