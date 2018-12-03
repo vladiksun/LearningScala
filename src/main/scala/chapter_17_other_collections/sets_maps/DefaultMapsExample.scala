@@ -2,7 +2,7 @@ package chapter_17_other_collections.sets_maps
 
 import scala.collection.mutable
 
-object MapsExample extends App {
+object DefaultMapsExample extends App {
 
 	val map = mutable.Map.empty[String, Int]
 

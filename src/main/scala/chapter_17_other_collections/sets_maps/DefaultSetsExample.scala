@@ -2,7 +2,7 @@ package chapter_17_other_collections.sets_maps
 
 import scala.collection.mutable
 
-object SetsExample extends  App {
+object DefaultSetsExample extends  App {
 
 	val mutaSet = mutable.Set(1, 2, 3)
 
