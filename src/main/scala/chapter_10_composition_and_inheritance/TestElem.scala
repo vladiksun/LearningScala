@@ -1,8 +1,6 @@
 package chapter_10_composition_and_inheritance
 
-import chapter_10_composition_and_inheritance.Element.LineElement
-
-object TestElement extends App {
+object TestElem extends App {
 
 	// compiler error here
 	// val test = new LineElement("")

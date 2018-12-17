@@ -15,8 +15,9 @@ object ScalaProperties extends App {
 
 	time.hour = 13	// setter call
 
-	// under the hood this implementation is exactly equivalent to the class definition
-	class Time2 {
+// under the hood this implementation is exactly equivalent to the class definition
+// The compiler will do this
+	class TimeAfterCompile {
 		private[this] var h = 12
 		private[this] var m = 0
 

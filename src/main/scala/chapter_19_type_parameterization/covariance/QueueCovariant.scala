@@ -4,7 +4,7 @@ class QueueCovariant[+T] private(	private val leading: List[T],
 						 			private val trailing: List[T]) {
 
 	// an auxiliary constructor
-	def this(elems: T*) = this(elems.toList, Nil)
+	//def this(elems: T*) = this(elems.toList, Nil)
 
 	private def mirror =
 		if (leading.isEmpty)
