@@ -5,6 +5,8 @@ abstract class CurrencyZone {
 
 	def make(x: Long): Currency
 
+	val CurrencyUnit: Currency
+
 	abstract class AbstractCurrency {
 		val amount: Long
 
@@ -38,5 +40,6 @@ abstract class CurrencyZone {
 					formatted ("%." + decimals(CurrencyUnit.amount) + "f")
 					+ " " + designation)
 	}
-	val CurrencyUnit: Currency
+
+
 }
