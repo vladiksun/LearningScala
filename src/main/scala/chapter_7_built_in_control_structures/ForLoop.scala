@@ -7,11 +7,11 @@ object ForLoop extends App {
     for (file <- filesHere)
         println(file)
 
-
+    //  for comprehension: iterate including the upper bound
     for (i <- 1 to 4)
         println("Iteration " + i)
 
-
+    // for comprehension: iterate omitting the upper bound
     for (i <- 1 until 4)
         println("Iteration " + i)
 

@@ -1,6 +1,6 @@
 package chapter_7_built_in_control_structures
 
-object IfTest extends App {
+object IfExample extends App {
 
     val filename =
         if (!args.isEmpty)

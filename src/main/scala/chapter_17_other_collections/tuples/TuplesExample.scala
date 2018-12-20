@@ -18,7 +18,7 @@ object TuplesExample extends App {
 	longest._1
 	longest._2
 
-	val (word, idx) = longest
+	val (word, idx) = longest // destructuring bind: tuple unpacking via pattern matching.
 	println(word)
 	println(idx)
 
