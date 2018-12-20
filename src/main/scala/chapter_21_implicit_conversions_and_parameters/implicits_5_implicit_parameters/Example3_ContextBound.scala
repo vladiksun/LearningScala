@@ -1,6 +1,6 @@
 package chapter_21_implicit_conversions_and_parameters.implicits_5_implicit_parameters
 
-object Example3 extends App {
+object Example3_ContextBound extends App {
 
 	def maxList1[T](elements: List[T])
 				  (implicit ordering: Ordering[T]): T =
