@@ -1,3 +1,5 @@
+package chapter_5_basic_types_and_operations
+
 object Strings extends App {
 
     println("""Welcome to Ultamix 3000.

@@ -12,7 +12,7 @@ object SimplifiedClientCode {
 	}
 
 	// right
-	def containsNeg2(nums: List[Int]) = nums.exists(_ < 0)
+	def containsNeg2(nums: List[Int]): Boolean = nums.exists(_ < 0)
 
 	///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -26,5 +26,5 @@ object SimplifiedClientCode {
 	}
 
 	// right
-	def containsOdd2(nums: List[Int]) = nums.exists(_ % 2 == 1)
+	def containsOdd2(nums: List[Int]): Boolean = nums.exists(_ % 2 == 1)
 }
