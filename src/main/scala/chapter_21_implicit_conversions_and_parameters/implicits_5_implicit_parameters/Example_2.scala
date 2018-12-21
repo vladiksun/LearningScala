@@ -1,6 +1,6 @@
 package chapter_21_implicit_conversions_and_parameters.implicits_5_implicit_parameters
 
-object Example2 extends App {
+object Example_2 extends App {
 
 	def maxListOrdering[T](elements: List[T])
 						  (ordering: Ordering[T]): T =

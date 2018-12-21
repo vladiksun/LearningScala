@@ -1,6 +1,6 @@
 package chapter_21_implicit_conversions_and_parameters.implicits_5_implicit_parameters
 
-object Example1 extends App {
+object Example_1 extends App {
 
 	class PreferredPrompt(val preference: String)
 	class PreferredDrink(val preference: String)
