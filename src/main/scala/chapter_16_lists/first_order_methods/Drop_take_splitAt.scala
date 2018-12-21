@@ -11,5 +11,5 @@ object Drop_take_splitAt extends App {
 	assert(dropped == List('c', 'd', 'e'))
 
 	val splitted = abcde splitAt 2
-	assert(splitted == (List('a', 'b'), List('c', 'd', 'e')))
+	assert(  splitted == ( List('a', 'b'), List('c', 'd', 'e')  )  )
 }

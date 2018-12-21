@@ -3,7 +3,7 @@ package chapter_16_lists.first_order_methods
 object Apply_and_indices extends App {
 
 //	Random element selection is supported through the apply method; however it is a less common
-//			operation for lists than it is for arrays.
+//	operation for lists than it is for arrays.
 
 	val abcde = List('a', 'b', 'c', 'd', 'e')
 	abcde apply 2 // rare in Scala

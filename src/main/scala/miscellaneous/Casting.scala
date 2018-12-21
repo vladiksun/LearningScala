@@ -11,4 +11,14 @@ object Casting extends App {
 		}
 	}
 
+	def castToStringViaPatternMatch(x: Any) =  {
+		x match {
+			case s: String =>
+				s.length
+			case _ =>
+				x.toString
+		}
+	}
+
+
 }
