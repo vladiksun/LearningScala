@@ -7,11 +7,12 @@ object Col_1_class_hierarchy {
 	Traversable
 		Iterable
 			Seq
-				IndexedSeq
+				IndexedSeq	//	has efficient apply, length, and (if mutable) update operations
 					Vector
 					mutable.ResizableArray
+					mutable.ArrayBuffer
 					// GenericArray
-				scala.collection.LinearSeq
+				scala.collection.LinearSeq	//	A linear sequence has efficient head and tail operations
 					mutable.MutableList
 					List
 					Stream
@@ -21,10 +22,10 @@ object Col_1_class_hierarchy {
 			Set
 				SortedSet
 					immutable.TreeSet
-					immutable.TreeSet
+					mutable.TreeSet
+				immutable.HashSet
 				mutable.HashSet
 				mutable.LinkedHashSet
-				immutable.HashSet
 				BitSet
 				// EmptySet
 				// Set1

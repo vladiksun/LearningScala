@@ -2,6 +2,7 @@ package chapter_19_type_parameterization.upper_bounds
 
 object MergeSortOrderedExample extends App {
 
+	// T is upper bound to Ordered
 	def orderedMergeSort[T <: Ordered[T]](xs: List[T]): List[T] = {
 		def merge(xs: List[T], ys: List[T]): List[T] =
 			(xs, ys) match {
