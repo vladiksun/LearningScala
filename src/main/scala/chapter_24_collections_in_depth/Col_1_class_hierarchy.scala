@@ -13,18 +13,19 @@ object Col_1_class_hierarchy {
 					mutable.ArrayBuffer
 					// GenericArray
 				scala.collection.LinearSeq	//	A linear sequence has efficient head and tail operations
-					mutable.MutableList
+					mutable.MutableList	//	A MutableList consists of a single linked list together with a pointer that refers to the terminal empty node of that list.
+						mutable.Queue
 					List
 					Stream
 				mutable.Buffer
-					mutable.ListBuffer
+					mutable.ListBuffer //	uses a linked list internally instead of an array
 					mutable.ArrayBuffer
 			Set
 				SortedSet
-					immutable.TreeSet
+					immutable.TreeSet // Red-black trees
 					mutable.TreeSet
-				immutable.HashSet
-				mutable.HashSet
+				immutable.HashSet // Hash tries
+				mutable.HashSet // based on hash tables
 				mutable.LinkedHashSet
 				BitSet
 				// EmptySet
@@ -34,15 +35,16 @@ object Col_1_class_hierarchy {
 				// Set4
 			Map
 				SortedMap
-					immutable.TreeMap
+					immutable.TreeMap // Red-black trees
 					mutable.TreeMap
-				mutable.HashMap
+				mutable.HashMap // based on hash tables
 				mutable.LinkedHashMap
-				immutable.HashMap
+				immutable.HashMap // Hash tries
 				// EmptyMap
 				// Map1
 				// Map2
 				// Map3
 				// Map4
+				immutable.ListMap // represents a map as a linked list of key-value pairs
 
 }
