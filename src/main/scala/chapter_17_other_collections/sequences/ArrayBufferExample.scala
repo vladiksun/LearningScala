@@ -6,12 +6,18 @@ object ArrayBufferExample extends App {
 
 //	An ArrayBuffer is like an array, except that you can additionally add and remove elements from the
 //	beginning and end of the sequence. All Array operations are available, though they are a little slower
-//			due to a layer of wrapping in the implementation. The new addition and removal operations are
+//	due to a layer of wrapping in the implementation. The new addition and removal operations are
 //	constant time on average, but occasionally require linear time due to the implementation needing to
 //	allocate a new array to hold the buffer's contents.
 
+//	You've already seen array buffers in Section 17.1. An array buffer holds an array and a size. Most
+//	operations on an array buffer have the same speed as an array, because the operations simply access
+//	and modify the underlying array. Additionally, array buffers can have data efficiently added to the end.
+//	Appending an item to an array buffer takes amortized constant time. Thus, array buffers are useful for
+//	efficiently building up a large collection whenever the new items are always added to the end.
+
 //	When you create an ArrayBuffer, you must specify a type parameter, but you don't need to specify a
-//			length. The ArrayBuffer will adjust the allocated space automatically as needed:
+//	length. The ArrayBuffer will adjust the allocated space automatically as needed:
 
 	val buf = new ArrayBuffer[Int]()
 

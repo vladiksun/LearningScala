@@ -1,8 +1,8 @@
-package chapter_17_other_collections.sequences
+package chapter_24_collections_in_depth.mutable
 
 import scala.collection.mutable.ListBuffer
 
-object ListBufferExample extends App {
+object ListBufferExampleRevisited extends App {
 
 	// ListBuffer is analog of java's ArrayList. It gives good performance on appending operation
 	// Another reason to use ListBuffer instead of List is to prevent the potential for stack overflow.
@@ -11,13 +11,15 @@ object ListBufferExample extends App {
 //	uses a linked list internally instead of an array. If you plan to convert the buffer to a list once it is built
 //	up, use a list buffer instead of an array buffer
 
-	val buf = new ListBuffer[Int]
-	buf += 1	// res4: buf.type = ListBuffer(1)
-	buf += 2	// res5: buf.type = ListBuffer(1, 2)
+	val buf = collection.mutable.ListBuffer.empty[Int]
+	//	buf: scala.collection.mutable.ListBuffer[Int] = ListBuffer()
 
-	buf // res6: scala.collection.mutable.ListBuffer[Int] = ListBuffer(1, 2)
+	buf += 1
+	//	res41: buf.type = ListBuffer(1)
 
-	3 +=: buf	// res7: buf.type = ListBuffer(3, 1, 2)
+	buf += 10
+	//	res42: buf.type = ListBuffer(1, 10)
 
-	buf.toList	// res8: List[Int] = List(3, 1, 2)
+	buf.toList
+	//	res43: List[Int] = List(1, 10)
 }
