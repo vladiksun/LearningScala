@@ -15,7 +15,8 @@ object Col_5_3_ViewsExample extends App {
 //    view does not copy these elements, it just provides a reference to them.
 
     def negate(xs: collection.mutable.Seq[Int]) =
-        for (i <- 0 until xs.length) xs(i) = -xs(i)
+        for (i <- 0 until xs.length)
+            xs(i) = -xs(i)
 
     negate(subarr) // res4: Array[Int] = Array(0, 1, 2, -3, -4, -5, 6, 7, 8, 9)
 }
