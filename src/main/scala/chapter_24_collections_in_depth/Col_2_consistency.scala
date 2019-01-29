@@ -10,7 +10,7 @@ object Col_2_consistency extends App {
 	Map("x" -> 24, "y" -> 25, "z" -> 26)
 	Set("x", "y", "z")
 	SortedSet("hello", "world")
-	mutable.Buffer("x", "y", "z")
+	mutable_impl.Buffer("x", "y", "z")
 	val vectorByDefault = IndexedSeq(1.0, 2.0)
 	LinearSeq("x", "y", "z")
 

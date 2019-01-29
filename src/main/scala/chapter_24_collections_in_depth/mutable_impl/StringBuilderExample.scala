@@ -1,4 +1,4 @@
-package chapter_24_collections_in_depth.mutable
+package chapter_24_collections_in_depth.mutable_impl
 
 object StringBuilderExample extends App {
 

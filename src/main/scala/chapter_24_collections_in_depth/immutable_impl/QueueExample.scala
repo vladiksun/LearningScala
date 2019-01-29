@@ -1,4 +1,4 @@
-package chapter_24_collections_in_depth.immutable
+package chapter_24_collections_in_depth.immutable_impl
 
 object QueueExample extends App {
 
