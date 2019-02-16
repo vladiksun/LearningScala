@@ -1,7 +1,6 @@
 package chapter_29_modular_programming.recipe
 
-object SimpleDatabase extends Database {
-    def allFoods = List(Apple, Orange, Cream, Sugar)
+object SimpleDatabase extends Database with SimpleFoods with SimpleRecipes {
 
     def allRecipes: List[Recipe] = List(FruitSalad)
 
@@ -9,7 +8,7 @@ object SimpleDatabase extends Database {
         FoodCategory("fruits", List(Apple, Orange)),
         FoodCategory("misc", List(Cream, Sugar)))
 
-    def allCategories = categories
+    override def allCategories = categories
 }
 
 object SimpleBrowser extends Browser {
