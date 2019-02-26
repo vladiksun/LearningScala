@@ -1,4 +1,4 @@
-package chapter_30_scala_equality.examples
+package chapter_30_scala_equality.examples.example1
 
 class ColoredPoint(x: Int, y: Int, val color: Color.Value) extends Point(x, y) { // Problem: equals not symmetric
 

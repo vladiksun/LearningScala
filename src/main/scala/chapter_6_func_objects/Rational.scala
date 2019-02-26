@@ -6,6 +6,7 @@ class Rational(n: Int, d: Int) {
     println("Created " + n + "/" + d)
 
     private val g = greatestCommonDivisor(n.abs, d.abs)
+
     val numer: Int = n / g
     val denom: Int = d / g
 

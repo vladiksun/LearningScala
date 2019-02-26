@@ -1,4 +1,4 @@
-package chapter_30_scala_equality.examples
+package chapter_30_scala_equality.examples.example1
 
 class Point(val x: Int, val y: Int) {
 

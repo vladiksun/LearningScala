@@ -11,3 +11,5 @@ libraryDependencies ++= Seq("org.specs2" %% "specs2-core" % "4.3.4" % "test")
 scalacOptions in Test ++= Seq("-Yrangepos")
 
 libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.14.0" % "test"
+
+libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
