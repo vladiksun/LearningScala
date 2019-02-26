@@ -3,8 +3,6 @@ package chapter_31_scala_and_java.java_8_features
 import java.util
 import java.util.function.IntUnaryOperator
 
-import chapter_3_next_steps.Arrays
-
 object LikeJavaStream {
 
 	val stream = util.Arrays.stream(Array(1, 2, 3))
