@@ -2,6 +2,7 @@ package chapter_32_concurrency.working_with_future
 
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.util.Try
 
 object FutureFilterAndCollect extends App {
 
@@ -12,7 +13,10 @@ object FutureFilterAndCollect extends App {
 
 	Thread.sleep(2000)
 
-	println( valid.value )
-	println( invalid.value )
+	val validTest: Option[Try[Int]] = valid.value
+	val invalidTest: Option[Try[Int]] = invalid.value
+
+	println( validTest )
+	println( invalidTest )
 
 }
